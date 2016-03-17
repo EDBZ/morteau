@@ -1,0 +1,61 @@
+body {
+  font-family: 'Indie Flower', cursive;
+  margin: 0;
+  background-color: blue;
+  text-shadow: #000 1px 1px, #000 -1px 1px, #000 -1px -1px, #000 1px -1px;
+}
+h1 {
+  font-size: 50px;
+  margin: auto;
+  color: white;
+}
+h2 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 25px;
+  margin: auto;
+  color: white;
+  text-shadow: #000 1px 1px, #000 -1px 1px, #000 -1px -1px, #000 1px -1px;
+}
+button {
+  margin: auto;
+  border: none;
+  background-color: transparent;
+}
+img:hover {
+  cursor: crosshair;
+}
+#nbclick {
+  font-size: 75px;
+  color: brown;
+}
+#saucisse img {
+  width: 70px;
+  height: auto;
+}
+#multiplicateur img {
+  width: 70px;
+  /*display: none;*/
+}
+#temps img {
+  width: 100px;
+}
+.copyr {
+  margin-top: 50px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  justify-content: space-around;
+}
+.box {
+  display: flex;
+  justify-content: space-around;
+}
+.pop {
+  visibility: hidden;
+}
+@font-face {
+  font-family: kablamo;
+  src: url(kablamo.ttf);
+}
